@@ -30,8 +30,5 @@ You can download the font packages directly from the official GitHub releases.
 For **Linux users**, the following command downloads all TTC packages from the latest release:
 
 ```bash
-curl -s 'https://api.github.com/repos/be5invis/Iosevka/releases/latest' \
-| jq -r ".assets[] | .browser_download_url" \
-| grep PkgTTC-Iosevka \
-| xargs -n 1 curl -L -O --fail --silent --show-error
-
+curl -s 'https://api.github.com/repos/be5invis/Iosevka/releases/latest' | jq -r ".assets[] | .browser_download_url" | grep PkgTTC-Iosevka | xargs -n 1 curl -L -O --fail --silent --show-error
+```
