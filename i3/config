@@ -202,7 +202,7 @@ exec_always --no-startup-id picom --daemon --no-frame-pacing
 exec_always --no-startup-id nitrogen --restore 
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
-#gaps inner 10
+gaps inner 10
 gaps outer 5
 #workspace 5 gaps horizontal 150
 #workspace 5 gaps vertical 50
