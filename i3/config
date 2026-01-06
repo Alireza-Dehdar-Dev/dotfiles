@@ -186,6 +186,10 @@ bindsym $mod+r mode "resize"
 # Change keyboard
 exec_always setxkbmap -layout us,ir -option "grp:win_space_toggle"
 
+# Flameshot (screenshot)
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+
+
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
